@@ -1,7 +1,7 @@
-# test
+# import dependencies
 import pandas as pd
 
-data = pd.read_csv("Resources/budget_data.csv")
+data = pd.read_csv("PyBank/Resources/budget_data.csv")
 print (data.head())
 
 #number of months in data set
